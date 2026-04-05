@@ -41,6 +41,11 @@ const router = createBrowserRouter([
       }
     ]
   }
+    ,
+  {path: '*',
+    element: <div>status unavailable: 404 Not Found</div>
+  }
+    
 ])
 
 createRoot(document.getElementById('root')).render(
